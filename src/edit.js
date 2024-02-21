@@ -52,7 +52,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					<ToggleControl
 						checked={ !! showStartingYear }
 						label={
-							__( 'Show Starting Year', 'copyrighte-date-block' )
+							__( 'Show Starting Year', 'copyright-date-block' )
 						}
 						onChange={ () =>
 							setAttributes( {
